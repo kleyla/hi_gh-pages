@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Box from './components/box'
 
 function App() {
   return (
-    <div className="hi">
-      <h1>HI</h1>
+    <div className="center">
+      <Box/>
     </div>
   );
 }
